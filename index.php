@@ -63,7 +63,6 @@
 // $oldArr = ["red", "green", "blue", "white", "violet"];
 
 
-
 // // find the extension of a photo.
 // // output png
 // $str = "myphoto.old.new.png";
@@ -72,17 +71,17 @@
 // $str = "Hi, My name is Rahim. I love PHP. I love php also";
 
 
-function vowel($str){
-    $vowel = ['a', 'e', 'i', 'o', 'u'];
-    $count = 0;
-    $string = strtolower($str);
+// function vowel($str){
+//     $vowel = ['a', 'e', 'i', 'o', 'u'];
+//     $count = 0;
+//     $string = strtolower($str);
 
-    for($i=0; $i<strlen($string); $i++){
-        if(in_array(substr($string, $i, 1), $vowel)){
-            $count ++;
-        }
-    }
-    return $count;
-}
+//     for($i=0; $i<strlen($string); $i++){
+//         if(in_array(substr($string, $i, 1), $vowel)){
+//             $count ++;
+//         }
+//     }
+//     return $count;
+// }
 
-echo vowel("Hi, i am a developer");
+// echo vowel("Hi, i am a developer");
