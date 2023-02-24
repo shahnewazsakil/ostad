@@ -100,7 +100,7 @@ if(isset($_FILES['photo']) && !empty($_FILES['photo']['name'])){
 
     $photo_ext_final = end($photo_ext_name);
 
-    if(in_array($photo_ext_final, $allow_ext) == false){
+    if(in_array($photo_ext_final, $allow_ext) === false){
         echo "File extension is not allowed";
         return false;
     }
